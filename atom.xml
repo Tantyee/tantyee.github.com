@@ -4,7 +4,7 @@
   <title><![CDATA[熊天翼]]></title>
   <link href="http://blog.wingssyi.com/atom.xml" rel="self"/>
   <link href="http://blog.wingssyi.com/"/>
-  <updated>2013-03-28T12:38:12+00:00</updated>
+  <updated>2013-03-28T13:58:21+00:00</updated>
   <id>http://blog.wingssyi.com/</id>
   <author>
     <name><![CDATA[Tianyi Xiong]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[welcome]]></title>
+    <link href="http://blog.wingssyi.com/blog/2013/03/28/welcome/"/>
+    <updated>2013-03-28T13:30:00+00:00</updated>
+    <id>http://blog.wingssyi.com/blog/2013/03/28/welcome</id>
+    <content type="html"><![CDATA[<p><img src="http://blog.wingssyi.com/images/postimage/me.jpg" alt="Me" /></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[第二个]]></title>
