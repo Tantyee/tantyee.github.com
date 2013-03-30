@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[WinGssyi]]></title>
-  <link href="http://blog.wingssyi.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Life | WinGssyi]]></title>
+  <link href="http://blog.wingssyi.com/blog/categories/life/atom.xml" rel="self"/>
   <link href="http://blog.wingssyi.com/"/>
   <updated>2013-03-30T01:42:02+00:00</updated>
   <id>http://blog.wingssyi.com/</id>
@@ -33,9 +33,8 @@
 开始装Ruby搭环境，完全按照教程来，原理一概不懂。12点多的时候把默认的架子搭起来了，中文也能正常显示，但是发现没有评论功能，教程里面没有提但是别人的文章下面都有，上网搜了一下，Octopress支持第三方评论插件disqus，注册了一个账号，搞定。<br><br>
 第二天早上起来加上了微博分享按钮，本来想在边栏上加些其他插件的，加上去觉得太杂乱于是又把它们去掉了。伦敦时隔大半个月终于出太阳了，出去转了一圈，顺便去中国城买了点菜。<br><br>
 晚上回来换上Slash主题，修改了一下导航栏，加了一点内容，于是变成了现在这个样子。<br><br>
-网上采用此类框架的个人主页基本上是技术类为主，因为可以很方便的嵌入代码，比如:<br></p>
-
-<figure class='code'><figcaption><span>女神拒绝他，只用了一个分号 (tragedy.c)</span> <a href='http://blog.wingssyi.com/downloads/code/tragedy.c'>download</a></figcaption>
+网上采用此类框架的个人主页基本上是技术类为主，因为可以很方便的嵌入代码，比如:<br>
+<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>女神拒绝他，只用了一个分号 (tragedy.c)</span> <a href='/downloads/code/tragedy.c'>download</a></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -43,14 +42,9 @@
 </pre></td><td class='code'><pre><code class='c'><span class='line'><span class="kt">int</span> <span class="n">i</span> <span class="err">；</span>
 </span><span class='line'><span class="c1">//女神拒绝他，只用了一个分号</span>
 </span><span class='line'><span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">forever</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">);</span>
-</span><span class='line'>  <span class="n">printf</span><span class="p">(</span><span class="s">&quot;I Love You</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<br>
-
-
-<p>当然，也和这个写文章都要命令行操作有关。<br>
+</span><span class='line'>	<span class="n">printf</span><span class="p">(</span><span class="s">&quot;I Love You</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div><br>
+当然，也和这个写文章都要命令行操作有关。<br>
 但是Slash整合了fancybox ，用来做相册其实也是不错的，比如点小图:<br>
 <a rel="gallery1" title="伦敦三月底的大雪" href="http://blog.wingssyi.com/images/postimage/snow_large.jpg" class="fancybox"><img src="http://blog.wingssyi.com/images/postimage/snow_small.jpg"></a><br>
 总之就这么开始吧。<br></p>
