@@ -4,7 +4,7 @@
   <title><![CDATA[WinGssyi]]></title>
   <link href="http://blog.wingssyi.com/atom.xml" rel="self"/>
   <link href="http://blog.wingssyi.com/"/>
-  <updated>2013-03-30T02:15:50+00:00</updated>
+  <updated>2013-03-30T16:47:24+00:00</updated>
   <id>http://blog.wingssyi.com/</id>
   <author>
     <name><![CDATA[Tianyi Xiong]]></name>
@@ -20,8 +20,12 @@
     <id>http://blog.wingssyi.com/blog/2013/03/29/start</id>
     <content type="html"><![CDATA[<p>其实想做这么一个个人网站已经有一段日子了。虽然技术不怎么样，好歹可以用来撑撑门面。<br><br>
 最先的时候也是看上了wordpress，域名的价格能够接受，可是在租服务器这一步的时候犹豫了，想想自己肚子里的货也不是很多，也贡献不出来什么好东西，归根结底也就是个自娱自乐的目的，在加之当时手上可支配资金有限，这么下血本实在没有必要。后来又瞟到了几篇吐槽wordpress资源占用高的文章，于是暂时打消了这个念头。<br><br>
-上个礼拜刚刚结束第二学期课程，开始放假。前天晚上，做完了几个比较容易点的作业，准备看下人人微博然后开始复习考试内容，结果点开了一个链接，是一个周年纪念页面，十分精致简洁，加入了很漂亮的动画效果，可是完全没有故作华丽的感觉。再抬头一看，是一个个人域名。当时眼前只有三个字“屌爆了”<br><br>
-网站主人是复旦的一个研究生，有篇文章里写了一条链接指向他师兄的网站。这位师兄妥妥的又是一个大牛，博客里第一篇文章就是讲他在国内直接申美国公司，先后拿到了Microsoft,Google,facebook的offer。网站目测不像wordpress做的，拉到页底于是我发现了Octopress这么个好东西.<br><br>
+上个礼拜刚刚结束第二学期课程，开始放假。前天晚上，做完了几个比较容易点的作业，准备看下人人微博然后开始复习考试内容，结果点开了一个链接，是一个周年纪念页面，十分精致简洁，加入了很漂亮的动画效果，可是完全没有故作华丽的感觉。再抬头一看，是一个个人域名。当时眼前只有三个字“屌爆了”。<br><!-- more --></p>
+
+<br>
+
+
+<p>网站主人是复旦的一个研究生，有篇文章里写了一条链接指向他师兄的网站。这位师兄妥妥的又是一个大牛，博客里第一篇文章就是讲他在国内直接申美国公司，先后拿到了Microsoft，Google，facebook的offer。网站目测不像wordpress做的，拉到页底于是我发现了Octopress这么个好东西.<br><br>
 点开官方文档，发现了这么一句:</p>
 
 <blockquote><p>Hosting your blog with Github’s Pages service is free and allows custom domains. To deploy you simply push your repository to Gihub. <br></p></blockquote>
