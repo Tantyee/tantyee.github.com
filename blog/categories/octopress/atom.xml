@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Octopress | WinGssyi]]></title>
+  <link href="http://blog.wingssyi.com/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://blog.wingssyi.com/"/>
+  <updated>2013-04-09T22:32:17+01:00</updated>
+  <id>http://blog.wingssyi.com/</id>
+  <author>
+    <name><![CDATA[Tianyi Xiong]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[解决Octopress文章列表comment计数为0]]></title>
+    <link href="http://blog.wingssyi.com/blog/2013/04/09/comment-issue/"/>
+    <updated>2013-04-09T20:17:00+01:00</updated>
+    <id>http://blog.wingssyi.com/blog/2013/04/09/comment-issue</id>
+    <content type="html"><![CDATA[<p>今天终于迎来了建博客以来的第一个评论，可是很快发现首页文章列表处的评论计数没有变化，依然是0，之前由于没有评论自己也没有测试所以一直忽略了这个问题。</p>
+
+<p><strong>先给出解决方案：</strong></p>
+
+<ol>
+<li>进入 <code>Disqus-&gt;Dashboard-&gt;你的站名-&gt;右侧Settings</code> 检查你的WebSite URL是不是和当前域名一样，网上就有很多老外从github域名迁移到自己域名后忘了改。</li>
+<li>需要修改的话，进入 <code>Tools(就在Settings旁边)-&gt;Migrate Theads</code>，然后按照向导修改即可。<br/>
+修改完成后有一个很简单的方法可以测试你域名是否正确，回到 <code>Dashboard-&gt;你的站名</code> ，下面会列出该站点下的所有评论。随便点击一个，如果能自动跳转到相应文章，说明域名正确了。</li>
+</ol>
+
+
+<p>如果你和我一样，用的第三方主题，而作者在框架的早期版本下制作出主题后又没有任何更新，那么你的主题可能很幸运地漏过了一些bug修复，比如评论数一直为0的问题。<br/>
+ 检查本地 <code>source-&gt;_includes-&gt;article.html</code>和<code>archive_post.html</code>(分别对应首页文章列表和归档页面文章列表)，找到<code>&lt;div class="comment"&gt;</code>那一行,去掉<code>{ { page.url } }</code> 。修改完毕后如下：</p>
+
+<p> <div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (fixed.html)</span> <a href='/downloads/code/20130409/fixed.html'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;comments&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;{{ root_url }}{{ post.url }}#disqus_thread&quot;</span><span class="nt">&gt;</span>Comments<span class="nt">&lt;/a&gt;&lt;/div&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>  <br/>
+ <br></p>
+
+<hr />
+
+<p> <br>
+ <strong>原因：</strong><br/>
+ <!--more-->
+ 也许有人注意到了，html代码中显示comment的部分并没有包含任何数字，而页面成功加载后会显示计数。这是因为在页面加载的过程中，首先执行一段JS脚本，从Disqus获取包含用户参数的JS脚本并将其嵌入head部分，这串脚本执行后用JSONP发起一个跨域的异步请求，请求参数是本页所有文章的URL地址，返回数据后更新comment计。</p>
+
+<p> 打开chorme调试工具，发现相对于页面源码，<code>&lt;head&gt;</code>部分多出了两个新的JS脚本，而右键显示网页源代码是看不到这两串的。</p>
+
+<p> 点击第二串可以直接查看其内容，里面包括一段json格式的comment计数：</p>
+
+<p> <div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>count (count.json)</span> <a href='/downloads/code/20130409/count.json'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='json'><span class='line'><span class="s2">&quot;counts&quot;</span><span class="err">:</span> <span class="p">[{</span><span class="nt">&quot;uid&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nt">&quot;comments&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">},</span> <span class="p">{</span><span class="nt">&quot;uid&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="nt">&quot;comments&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">}]</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p> 而这段JSON只和文章的URL地址有关，因此如果</p>
+
+<ul>
+<li><p>域名不对（对应解决方案1），<strong>或者</strong></p></li>
+<li><p>文章URL不对（对应解决方案2 ，旧框架多的 <code>{ { page.url } }</code> 解析后变成<code>/index.html</code>，而文章地址是不包含<code>/index.html</code>的)</p></li>
+</ul>
+
+
+<p> 都会导致评论数目显示错误。</p>
+]]></content>
+  </entry>
+  
+</feed>
