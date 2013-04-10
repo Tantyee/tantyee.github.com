@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Life | WinGssyi]]></title>
-  <link href="http://blog.wingssyi.com/blog/categories/life/atom.xml" rel="self"/>
-  <link href="http://blog.wingssyi.com/"/>
-  <updated>2013-04-09T22:32:17+01:00</updated>
-  <id>http://blog.wingssyi.com/</id>
+  <link href="http://blog.wingssyi.me/blog/categories/life/atom.xml" rel="self"/>
+  <link href="http://blog.wingssyi.me/"/>
+  <updated>2013-04-10T23:16:40+01:00</updated>
+  <id>http://blog.wingssyi.me/</id>
   <author>
     <name><![CDATA[Tianyi Xiong]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[那么从这里开始吧]]></title>
-    <link href="http://blog.wingssyi.com/blog/2013/03/29/start/"/>
+    <link href="http://blog.wingssyi.me/blog/2013/03/29/start/"/>
     <updated>2013-03-29T19:44:00+00:00</updated>
-    <id>http://blog.wingssyi.com/blog/2013/03/29/start</id>
+    <id>http://blog.wingssyi.me/blog/2013/03/29/start</id>
     <content type="html"><![CDATA[<p>其实想做这么一个个人网站已经有一段日子了。虽然技术不怎么样，好歹可以用来撑撑门面。<br><br>
 最先的时候也是看上了wordpress，域名的价格能够接受，可是在租服务器这一步的时候犹豫了，想想自己肚子里的货也不是很多，也贡献不出来什么好东西，归根结底也就是个自娱自乐的目的，在加之当时手上可支配资金有限，这么下血本实在没有必要。后来又瞟到了几篇吐槽wordpress资源占用高的文章，于是暂时打消了这个念头。<br><br>
 上个礼拜刚刚结束第二学期课程，开始放假。前天晚上，做完了几个比较容易点的作业，准备看下人人微博然后开始复习考试内容，结果点开了一个链接，是一个周年纪念页面，十分精致简洁，加入了很漂亮的动画效果，可是完全没有故作华丽的感觉。再抬头一看，是一个个人域名。当时眼前只有三个字“屌爆了”。<br><!-- more --></p>
@@ -50,7 +50,7 @@
 </span></code></pre></td></tr></table></div></figure></notextile></div><br>
 当然，也和这个写文章都要命令行操作有关。<br>
 但是Slash整合了fancybox ，用来做相册其实也是不错的，比如点小图:<br>
-<a rel="gallery1" title="伦敦三月底的大雪" href="http://blog.wingssyi.com/images/postimage/snow_large.jpg" class="fancybox"><img src="http://blog.wingssyi.com/images/postimage/snow_small.jpg"></a><br>
+<a rel="gallery1" title="伦敦三月底的大雪" href="http://blog.wingssyi.me/images/postimage/snow_large.jpg" class="fancybox"><img src="http://blog.wingssyi.me/images/postimage/snow_small.jpg"></a><br>
 总之就这么开始吧。<br></p>
 
 <br>

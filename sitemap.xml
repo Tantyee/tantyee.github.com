@@ -1,39 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://blog.wingssyi.com/blog/2013/03/29/start/</loc>
-        <lastmod>2013-03-30T16:44:52+00:00</lastmod>
+        <loc>http://blog.wingssyi.me/blog/2013/03/29/start/</loc>
+        <lastmod>2013-04-09T18:23:02+01:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.wingssyi.com/blog/2013/03/31/foolsday/</loc>
-        <lastmod>2013-04-01T00:49:03+01:00</lastmod>
+        <loc>http://blog.wingssyi.me/blog/2013/03/31/foolsday/</loc>
+        <lastmod>2013-04-09T18:23:02+01:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.wingssyi.com/blog/2013/04/09/comment-issue/</loc>
-        <lastmod>2013-04-09T22:32:16+01:00</lastmod>
+        <loc>http://blog.wingssyi.me/blog/2013/04/09/comment-issue/</loc>
+        <lastmod>2013-04-10T23:15:25+01:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.wingssyi.com/github/about/</loc>
-        <lastmod>2013-03-29T02:31:03+00:00</lastmod>
+        <loc>http://blog.wingssyi.me/about/</loc>
+        <lastmod>2013-04-09T18:23:02+01:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.wingssyi.com/github/blog/archives/</loc>
-        <lastmod>2013-04-09T22:32:16+01:00</lastmod>
+        <loc>http://blog.wingssyi.me/blog/archives/</loc>
+        <lastmod>2013-04-10T23:15:25+01:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.wingssyi.com/github/</loc>
-        <lastmod>2013-04-09T22:32:16+01:00</lastmod>
+        <loc>http://blog.wingssyi.me/</loc>
+        <lastmod>2013-04-10T23:15:25+01:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.wingssyi.com/github/others/emotional.html</loc>
-        <lastmod>2013-03-30T01:35:14+00:00</lastmod>
+        <loc>http://blog.wingssyi.me/others/emotional.html</loc>
+        <lastmod>2013-04-09T18:23:02+01:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.wingssyi.com/github/others/shutter.html</loc>
-        <lastmod>2013-04-08T22:07:11+01:00</lastmod>
+        <loc>http://blog.wingssyi.me/others/shutter.html</loc>
+        <lastmod>2013-04-09T18:23:02+01:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.wingssyi.com/github/robots.txt</loc>
+        <loc>http://blog.wingssyi.me/robots.txt</loc>
         <lastmod>2013-04-09T18:21:41+01:00</lastmod>
     </url>
 </urlset>

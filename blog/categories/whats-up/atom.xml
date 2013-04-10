@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: what's_up | WinGssyi]]></title>
-  <link href="http://blog.wingssyi.com/blog/categories/whats-up/atom.xml" rel="self"/>
-  <link href="http://blog.wingssyi.com/"/>
-  <updated>2013-04-09T22:32:17+01:00</updated>
-  <id>http://blog.wingssyi.com/</id>
+  <link href="http://blog.wingssyi.me/blog/categories/whats-up/atom.xml" rel="self"/>
+  <link href="http://blog.wingssyi.me/"/>
+  <updated>2013-04-10T23:16:40+01:00</updated>
+  <id>http://blog.wingssyi.me/</id>
   <author>
     <name><![CDATA[Tianyi Xiong]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[2013愚人节：谷歌 “灵鼻子” ]]></title>
-    <link href="http://blog.wingssyi.com/blog/2013/03/31/foolsday/"/>
+    <link href="http://blog.wingssyi.me/blog/2013/03/31/foolsday/"/>
     <updated>2013-03-31T23:33:00+01:00</updated>
-    <id>http://blog.wingssyi.com/blog/2013/03/31/foolsday</id>
+    <id>http://blog.wingssyi.me/blog/2013/03/31/foolsday</id>
     <content type="html"><![CDATA[<p>正准备睡觉，看到google搜索栏下多了这么一个新按钮：<br>
 <img src="/images/postimage/googlefool/menu.png" alt="" /><br>
 于是我兴冲冲的点开看：<br></p>
