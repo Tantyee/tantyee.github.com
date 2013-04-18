@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | WinGssyi]]></title>
   <link href="http://blog.wingssyi.me/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://blog.wingssyi.me/"/>
-  <updated>2013-04-16T00:49:58+01:00</updated>
+  <updated>2013-04-18T16:50:19+01:00</updated>
   <id>http://blog.wingssyi.me/</id>
   <author>
     <name><![CDATA[Tianyi Xiong]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[解决Octopress文章列表comment计数为0的问题]]></title>
+    <title type="html"><![CDATA[解决Octopress comment为0的问题]]></title>
     <link href="http://blog.wingssyi.me/blog/2013/04/09/comment-issue/"/>
     <updated>2013-04-09T20:17:00+01:00</updated>
     <id>http://blog.wingssyi.me/blog/2013/04/09/comment-issue</id>
